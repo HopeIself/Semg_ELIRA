@@ -1,7 +1,5 @@
-<!-- README_en.md for Semg_ELIRA -->
-
 <p align="right">
-  <a href="./README_zh.md">中文</a> | <a href="./README_en.md">English</a>
+  <a href="./README.md">中文</a> | <a href="./README_en.md">English</a>
 </p>
 
 # Semg\_ELIRA
