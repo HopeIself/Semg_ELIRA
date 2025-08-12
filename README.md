@@ -6,7 +6,7 @@
 
 **ELIRA**（Electromyography and Large Model Driven Intelligent Rehab AI Agent System）——基于肌电信号的智能康复辅助系统
 Vue架构前端＋Flask架构后端
----
+
 ## 目录
 1. [系统简介](#系统简介)
 2. [演示图示](#演示图示)
@@ -19,7 +19,7 @@ Vue架构前端＋Flask架构后端
 9. [安装与部署流程](#安装与部署流程)
 10. [许可证](#许可证)
 11. [模块简介](#模块简介)
----
+
 ## 系统简介
 本项目旨在构建一套智能化、多端协同的康复辅助训练系统，面向大众用户，尤其适用于学生群体和上班族、术后轻度训练者与亚健康人群。系统融合**肌电采集、物联网通信、大模型驱动、云端智能分析与多模态交互引导**于一体，借助 AI Agent 实现全流程智能化管理。
 
@@ -44,7 +44,6 @@ Vue架构前端＋Flask架构后端
   <img src="./images/device_flow.png" alt="采集流程图" style="max-width:100%;height:auto;" />
 </div>
 
----
 
 ## 使用说明
 
@@ -58,7 +57,6 @@ Vue架构前端＋Flask架构后端
 
 > 提示：仓库中 `docs/` 目录包含详细使用手册与页面跳转说明（搜索 `快速开始` 可直接跳转）。
 
----
 
 ## 需求（环境）
 
@@ -76,8 +74,6 @@ Vue架构前端＋Flask架构后端
 * 数据库（任选）：PostgreSQL / MySQL / SQLite（用于小规模测试）
 * 消息队列（可选）：Redis / RabbitMQ
 * 前端：Node.js 16+、Vue 3
-
----
 
 ## 演示示例
 
@@ -102,14 +98,10 @@ python examples/simulated_acquisition.py
 python examples/run_analysis.py
 ```
 
----
-
 ## 文档资料
 
 * 仓库 `docs/` 目录包含：系统设计、接口文档、前端说明、硬件接线图、数据格式说明。
 * 推荐阅读（本地或云端存放 PDF）：医学标准动作分类、肌电信号处理基础教材、相关论文 PDF（请将 PDF 放在 `docs/papers/` 并在 `docs/index.md` 列出）。
-
----
 
 ## 功能
 
@@ -121,8 +113,6 @@ python examples/run_analysis.py
 * 每轮训练生成可视化图文评估报告
 * 多端同步（Web / App / 云端）与数据存储
 * 在线医生远程查看与报告分享
-
----
 
 ## 发布与支持平台
 
@@ -170,12 +160,9 @@ npm run build    # 或 npm run dev 用于开发
 * 使用模拟脚本或硬件采集上传数据
 * 访问前端或调用 API 查看分析结果与报告
 
----
-
 ## 许可证
 
 本项目代码开源[MIT](./LICENSE)，项目文档采用 [署名-禁止演绎 4.0 国际协议许可](https://creativecommons.org/licenses/by-nd/4.0/deed.zh)
----
 
 ## 模块简介
 
@@ -187,8 +174,7 @@ npm run build    # 或 npm run dev 用于开发
 6. **康复结果总结与报告输出** — 每次训练的图文/PDF 报告导出与历史记录管理。
 7. **在线医生远程分析与建议反馈** — 医生查看历史数据、远程会诊与建议发布。
 
----
 ## 补充
 
-* 若有不足敬请指出，我们会一直进步的。
+若有不足敬请指出，我们会一直进步的。
 
