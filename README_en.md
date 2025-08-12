@@ -98,7 +98,7 @@ System workflow:
 ## Supported Platforms
 - **Frontend**: Web (expandable to App)
 - **Backend/Cloud**: Flask-based, deployable to public cloud (Alibaba Cloud, AWS, Azure, Volcano Engine, etc.) or private servers
-- **Embedded**: Supports STM32, Arduino, and other common sensing modules
+- **Embedded**: Supports ESP32, Arduino, and other common sensing modules
 
 ---
 
@@ -108,3 +108,40 @@ System workflow:
 ```bash
 git clone https://github.com/your-org/Semg_ELIRA.git
 cd Semg_ELIRA
+```
+
+### 2. Configure the backend environment
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux / macOS
+venv\Scripts\activate      # Windows
+pip install -r requirements.txt
+```
+
+### 3. Deploy the backend service
+```bash
+python app.py
+```
+
+### 4. Launch the frontend (Web)
+```bash
+cd frontend
+npm install
+npm run build
+```
+
+### 5. Embedded firmware
+* Compile and flash STM32 firmware, configure network and acquisition channels
+
+* Upload Arduino acquisition scripts and test ADC output
+
+### 6. Verification process
+* Use simulation scripts or hardware to collect and upload data
+
+* Access the frontend or call the API to view analysis results and reports
+
+## License
+Project code is licensed under MIT, project documentation is licensed under [CC BY-ND 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/deed.zh).
+
+## Notes
+If there are any shortcomings, please feel free to point them out. We are committed to continuous improvement.
