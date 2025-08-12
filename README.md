@@ -34,7 +34,7 @@ Vue架构前端＋Flask架构后端+esp32和Arduino肌电硬件
 ### 系统总体架构图
 
 <div align="center">
-  <img src="./image/整体流程.png" alt="系统架构图" style="max-width:100%;height:auto;" />
+  <img src="./image/系统架构.png" alt="系统架构图" style="max-width:100%;height:auto;" />
 </div>
 
 ### 感知层架构
