@@ -1,9 +1,7 @@
-<p align="right"> 
+# Semg_ELIRA
+<p align="left"> 
   <a href="./README.md">中文</a> | <a href="./README_en.md">English</a>
 </p>
-
-# Semg_ELIRA
-
 **ELIRA**（Electromyography and Large Model Driven Intelligent Rehab AI Agent System）——基于肌电信号的智能康复辅助系统
 
 Vue 架构前端 + Flask 架构后端 + ESP32 & Arduino 肌电采集硬件
