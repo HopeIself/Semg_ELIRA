@@ -13,13 +13,12 @@ Vue架构前端＋Flask架构后端+esp32和Arduino肌电硬件
 2. [演示图示](#演示图示)
 3. [使用说明](#使用说明)
 4. [需求（环境）](#需求环境)
-5. [演示示例](#演示示例)
-6. [文档资料](#文档资料)
-7. [功能](#功能)
-8. [发布与支持平台](#发布与支持平台)
-9. [安装与部署流程](#安装与部署流程)
-10. [许可证](#许可证)
-11. [模块简介](#模块简介)
+5. [文档资料](#文档资料)
+6. [功能](#功能)
+7. [发布与支持平台](#发布与支持平台)
+8. [安装与部署流程](#安装与部署流程)
+9. [许可证](#许可证)
+10. [模块简介](#模块简介)
 
 ## 系统简介
 本项目旨在构建一套智能化、多端协同的康复辅助训练系统，面向大众用户，尤其适用于学生群体和上班族、术后轻度训练者与亚健康人群。系统融合**肌电采集、物联网通信、大模型驱动、云端智能分析与多模态交互引导**于一体，借助 AI Agent 实现全流程智能化管理。
@@ -58,16 +57,11 @@ Vue架构前端＋Flask架构后端+esp32和Arduino肌电硬件
 
 ## 使用说明
 
-下面给出常用使用场景与快速跳转：
+* 硬件代码部署参考`hardware/README.md`
 
-* 打开前端界面（Web）: `docs/web/README.md` 或直接访问 `http://<your-host>/`。 <br/> <img src="./images/web_ui.png" alt="Web UI 截图" style="max-width:60%;height:auto;" />
+* 前端界面示例 <br/> <img src="./image/web_ui.png" alt="Web UI 截图" style="max-width:60%;height:auto;" />
 
-* 打开移动端 App（Android / iOS）: 请参考 `docs/mobile/README.md` 并安装对应 APK / TestFlight 包。 <br/> <img src="./images/app_screenshot.png" alt="App 截图" style="max-width:60%;height:auto;" />
-
-* 查看云端分析控制台: `docs/cloud/console.md`。 <br/> <img src="./images/cloud_console.png" alt="Cloud 控制台截图" style="max-width:60%;height:auto;" />
-
-> 提示：仓库中 `docs/` 目录包含详细使用手册与页面跳转说明（搜索 `快速开始` 可直接跳转）。
-
+* 后端将代码部署至服务器即可
 
 ## 需求（环境）
 
@@ -81,33 +75,9 @@ Vue架构前端＋Flask架构后端+esp32和Arduino肌电硬件
 **软件（前后端）**
 
 * Python 3.8+（推荐 3.10）
-* 常用依赖：`numpy`, `scipy`, `pandas`, `matplotlib`, `torch`（若需模型推理）, `fastapi`, `uvicorn`
-* 数据库（任选）：PostgreSQL / MySQL / SQLite（用于小规模测试）
-* 消息队列（可选）：Redis / RabbitMQ
-* 前端：Node.js 16+、Vue 3
+* 库文件参考`requirements.txt`
+* 前端：Node.js、Vue3
 
-## 演示示例
-
-仓库中提供若干演示脚本：
-
-* `examples/simulated_acquisition.py` — 模拟肌电数据采集并上传到云端。
-* `examples/run_analysis.py` — 本地运行云端分析模块并生成报告。
-* `examples/demo_frontend/` — 前端演示页面源码（可直接用 `npm run dev` 运行）。
-
-运行快速 demo：
-
-```bash
-# 安装依赖（示例）
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-# 运行模拟采集
-python examples/simulated_acquisition.py
-
-# 在另一个终端运行分析服务
-python examples/run_analysis.py
-```
 
 ## 文档资料
 
