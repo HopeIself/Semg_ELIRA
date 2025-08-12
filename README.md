@@ -131,7 +131,6 @@ python examples/run_analysis.py
 * 后端/云端：Linux x86\_64（推荐 Ubuntu 20.04+），可部署在公有云（阿里云、AWS、Azure、火山云等）或私有服务器
 * 嵌入式部分：支持常见 MCU（STM32 系列、Arduino）与感测模块
 
----
 
 ## 安装与部署流程（简要）
 
