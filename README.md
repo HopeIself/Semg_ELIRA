@@ -35,25 +35,25 @@ Vue架构前端＋Flask架构后端
 ### 系统总体架构图
 
 <div align="center">
-  <img src="./images/整体流程.png" alt="系统架构图" style="max-width:100%;height:auto;" />
+  <img src="./image/整体流程.png" alt="系统架构图" style="max-width:100%;height:auto;" />
 </div>
 
 ### 感知层架构
 
 <div align="center">
-  <img src="./images/感知层架构图.png" alt="感知层架构图" style="max-width:100%;height:auto;" />
+  <img src="./image/感知层架构图.png" alt="感知层架构图" style="max-width:100%;height:auto;" />
 </div>
 
 ### 控制层架构
 
 <div align="center">
-  <img src="./images/控制层架构图.png" alt="控制层架构图" style="max-width:100%;height:auto;" />
+  <img src="./image/控制层架构图.png" alt="控制层架构图" style="max-width:100%;height:auto;" />
 </div>
 
 ### 网络层架构
 
 <div align="center">
-  <img src="./images/网络层架构图.png" alt="网络层架构图" style="max-width:100%;height:auto;" />
+  <img src="./image/网络层架构图.png" alt="网络层架构图" style="max-width:100%;height:auto;" />
 </div>
 
 ## 使用说明
