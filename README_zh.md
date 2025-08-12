@@ -1,14 +1,10 @@
-<!-- README_zh.md for Semg_ELIRA (written in Markdown with HTML snippets for images/links) -->
-
-<!-- 语言选择 -->
-
 <p align="right">
   <a href="./README_zh.md">中文</a> | <a href="./README_en.md">English</a>
 </p>
 
 # Semg\_ELIRA
 
-**ELIRA**（Electromyography-based LIfe Rehabilitation Assistant）——基于肌电信号的智能康复辅助系统
+**ELIRA**（Electromyography and Large Model Driven Intelligent Rehab AI Agent System）——基于肌电信号的智能康复辅助系统
 
 ---
 
