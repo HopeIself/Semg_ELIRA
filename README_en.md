@@ -1,8 +1,8 @@
+# Semg_ELIRA
+
 <p align="right"> 
   <a href="./README.md">中文</a> | <a href="./README_en.md">English</a>
 </p>
-
-# Semg_ELIRA
 
 **ELIRA** (Electromyography and Large Model Driven Intelligent Rehab AI Agent System) — An intelligent rehabilitation assistance system based on EMG signals.
 
