@@ -5,6 +5,7 @@
 # Semg\_ELIRA
 
 **ELIRA**（Electromyography and Large Model Driven Intelligent Rehab AI Agent System）——基于肌电信号的智能康复辅助系统
+
 Vue架构前端＋Flask架构后端
 
 ## 目录
@@ -29,21 +30,31 @@ Vue架构前端＋Flask架构后端
 
 训练过程中，系统实时评估动作质量，反馈肌电特征变化，并在每轮训练后生成图文评估报告。AI Agent 作为康复小助手，帮助用户分析报告与答疑解惑。所有数据同步存储于云端，App 可实时读取。
 
----
 
 ## 演示图示
 ### 系统总体架构图
 
 <div align="center">
-  <img src="./images/architecture.png" alt="系统架构图" style="max-width:100%;height:auto;" />
+  <img src="./images/整体流程.png" alt="系统架构图" style="max-width:100%;height:auto;" />
 </div>
 
-### 硬件与采集流程
+### 感知层架构
 
 <div align="center">
-  <img src="./images/device_flow.png" alt="采集流程图" style="max-width:100%;height:auto;" />
+  <img src="./images/感知层架构图.png" alt="感知层架构图" style="max-width:100%;height:auto;" />
 </div>
 
+### 控制层架构
+
+<div align="center">
+  <img src="./images/控制层架构图.png" alt="控制层架构图" style="max-width:100%;height:auto;" />
+</div>
+
+### 网络层架构
+
+<div align="center">
+  <img src="./images/网络层架构图.png" alt="网络层架构图" style="max-width:100%;height:auto;" />
+</div>
 
 ## 使用说明
 
@@ -61,13 +72,13 @@ Vue架构前端＋Flask架构后端
 ## 需求（环境）
 
 **硬件**
+* 3个SEMG肌电信号干电极传感器
+* 3个电路板
+* 1个Arduino单片机
+* 1个0.91英寸OLED显示屏
+* ESP32-S3单片机作为主控板
 
-* 肌电采集器（支持 ADC 输出）
-* Arduino 或兼容采集模块
-* STM32 或其他 MCU 用于数据打包与上传
-* 支持 Wi-Fi / NB-IoT 的网关或终端（视部署方案）
-
-**软件（云端 / 本地）**
+**软件（前后端）**
 
 * Python 3.8+（推荐 3.10）
 * 常用依赖：`numpy`, `scipy`, `pandas`, `matplotlib`, `torch`（若需模型推理）, `fastapi`, `uvicorn`
