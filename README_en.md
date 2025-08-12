@@ -141,7 +141,7 @@ npm run build
 * Access the frontend or call the API to view analysis results and reports
 
 ## License
-Project code is licensed under MIT, project documentation is licensed under [CC BY-ND 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/deed.zh).
+Project code is licensed under [MIT](./LICENSE), project documentation is licensed under [CC BY-ND 4.0 International](https://creativecommons.org/licenses/by-nd/4.0/deed.zh).
 
 ## Notes
 If there are any shortcomings, please feel free to point them out. We are committed to continuous improvement.
