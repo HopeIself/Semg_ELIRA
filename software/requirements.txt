@@ -1,0 +1,11 @@
+flask
+flask-cors
+flask-jwt-extended
+cozepy
+cryptography
+openpyxl
+pandas
+matplotlib
+requests
+numpy
+openai
