@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "file-loader": "^6.2.0"
+  },
+  "dependencies": {
+    "@volcengine/rtc": "^4.67.3"
+  }
+}
