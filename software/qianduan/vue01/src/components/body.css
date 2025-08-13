@@ -1,0 +1,11 @@
+body1 {
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 垂直居中 */
+    height: 0vh;
+    margin: 0;
+    flex-direction: column; /* 使内容垂直排列 */
+    padding-bottom: 15vh;
+}
